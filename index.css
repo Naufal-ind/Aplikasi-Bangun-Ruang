@@ -1,0 +1,161 @@
+
+body{
+    font-family: quicksand;
+    margin: 0;
+    background-color: #EEE;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+
+}
+
+p{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
+
+button{
+    height: 35px;
+    width: 90px;
+    border-radius: 3px;
+    border: 0;
+    font-size: 15px;
+    font-family: quicksand;
+}
+
+#home{
+    margin-top: 20px;
+    margin-left: 55px;
+    
+}
+
+#home h2{
+    margin-left: 60px;
+}
+
+
+#Bangun_Datar{
+    margin-top: 40px;
+    margin-bottom: -70px;
+}
+
+#nama{
+    margin-top: 45px;
+    font-size: 28px;
+    margin-bottom: -10px;
+}
+
+
+.container{
+    float: left;
+    border: 1px solid black;
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 12rem;
+    height: 10.3rem;
+    background-color: #fff;
+    text-align: center;
+   
+}
+
+
+img{
+   /* height: 70px;*/
+    width: 90px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -40px;
+}
+
+#edit_btn{
+    background-color: #2F74D0;
+    color: wheat;
+   margin-top: -20px;
+}
+
+#login_btn{
+    background-color: #0099cc;
+    color: white;
+    margin-top: -20px;
+    margin-left: 83%;
+}
+
+ul{
+    position: relative;
+    background: #fff;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 34%);
+
+}
+
+ul li{
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+
+}
+
+ul li.numberpage{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #383838;
+    font-weight: 600;
+    border-radius: 50%;
+
+}
+
+ul li.numberpage:hover a,
+ul li.numberpage.active a{
+    background: #2F74D0;;
+    color: #fff;
+
+}
+
+ul li:first-child{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+ul li:last-child{
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.footer:hover{
+    color: #2F74D0;
+}
+
+.footer{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
